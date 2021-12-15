@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    height: auto;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: black
+}
+
+
+
+p {
+    text-align: justify;
+  
+}
+
+footer{
+
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+}
