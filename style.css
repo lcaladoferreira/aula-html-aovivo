@@ -1,17 +1,24 @@
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif, 1.5;
     max-width: 100%;
     height: auto;
-}
+    font-size: 3vh;
+    font-display: auto; }
 
-
+    @media screen and (max-width: 600px) {
+        div.example {
+          font-size: 30px;
+        }
+      }
+      
 img {
     max-width: 100%;
     height: auto;
     align-items: center;
   }
 
-
+    
 h1 {
     color: red;
 }
@@ -26,7 +33,7 @@ h3 {
 
 
 
-p {
+p, p1, p2, ol {
     text-align: justify;
   
 }
@@ -34,7 +41,7 @@ p {
 footer{
 
     text-align: center;
-    align-items: center;
     width: 100%;
+    position: relative; 
 
 }
